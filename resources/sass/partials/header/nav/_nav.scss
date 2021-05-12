@@ -1,0 +1,21 @@
+nav {
+    width: 100%;
+    .nav-up {
+        background-color: $nav-up-bg;
+        .container {
+            .nav-up-text {
+                height: 30px;
+                margin-left: auto;
+                color: $nav-up-txt;
+                align-items: center;
+                span {
+                    margin: 0 50px;
+                    font-size: $xs;
+                    i {
+                        margin-left: 5px;
+                    }
+                }
+            }    
+        }
+    }
+}

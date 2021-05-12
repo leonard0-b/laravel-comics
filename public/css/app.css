@@ -1,0 +1,50 @@
+/* COLORS */
+
+/* /COLORS */
+
+/* TYPO */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+
+.container {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.flex {
+  display: flex;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+nav {
+  width: 100%;
+}
+
+nav .nav-up {
+  background-color: #0282f9;
+}
+
+nav .nav-up .container .nav-up-text {
+  height: 30px;
+  margin-left: auto;
+  color: #fff;
+  align-items: center;
+}
+
+nav .nav-up .container .nav-up-text span {
+  margin: 0 50px;
+  font-size: 10px;
+}
+
+nav .nav-up .container .nav-up-text span i {
+  margin-left: 5px;
+}
+
