@@ -4,11 +4,15 @@
 
 /* TYPO */
 
+/* /TYPO */
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: "Open Sans", sans-serif;
+  list-style: none;
+  text-decoration: none;
 }
 
 .container {
@@ -40,11 +44,95 @@ nav .nav-up .container .nav-up-text {
 }
 
 nav .nav-up .container .nav-up-text span {
-  margin: 0 50px;
+  margin-left: 50px;
   font-size: 10px;
 }
 
 nav .nav-up .container .nav-up-text span i {
   margin-left: 5px;
+}
+
+nav .nav-down {
+  height: 100px;
+}
+
+nav .nav-down .container {
+  align-items: center;
+  height: 100%;
+  justify-content: space-between;
+}
+
+nav .nav-down .container .logo img {
+  width: 60px;
+}
+
+nav .nav-down .container .nav-cmd {
+  height: 100%;
+}
+
+nav .nav-down .container .nav-cmd ul {
+  height: 100%;
+  align-items: center;
+}
+
+nav .nav-down .container .nav-cmd ul li {
+  margin: 0 30px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+nav .nav-down .container .nav-cmd ul li.active {
+  border-bottom: 5px solid #0282f9;
+}
+
+nav .nav-down .container .nav-cmd ul li.active a {
+  color: #0282f9;
+}
+
+nav .nav-down .container .nav-cmd ul li a {
+  text-transform: uppercase;
+  font-size: 13px;
+  color: #000;
+  font-weight: 600;
+}
+
+nav .nav-down .container .nav-cmd ul li i {
+  margin-left: 5px;
+  color: #0282f9;
+  font-size: 10px;
+}
+
+nav .nav-down .container .search {
+  border-bottom: 2px solid #0282f9;
+}
+
+nav .nav-down .container .search input {
+  border: 0;
+  width: 100px;
+}
+
+nav .nav-down .container .search button {
+  border: 0;
+  background-color: inherit;
+  padding-left: 10px;
+}
+
+::-moz-placeholder {
+  text-align: right;
+  font-weight: 600;
+  color: #000;
+}
+
+:-ms-input-placeholder {
+  text-align: right;
+  font-weight: 600;
+  color: #000;
+}
+
+::placeholder {
+  text-align: right;
+  font-weight: 600;
+  color: #000;
 }
 

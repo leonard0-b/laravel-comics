@@ -9,7 +9,7 @@ nav {
                 color: $nav-up-txt;
                 align-items: center;
                 span {
-                    margin: 0 50px;
+                    margin-left: 50px;
                     font-size: $xs;
                     i {
                         margin-left: 5px;
@@ -18,4 +18,66 @@ nav {
             }    
         }
     }
+    .nav-down {
+        height: 100px;
+        .container {
+            align-items: center;
+            height: 100%;
+            justify-content: space-between;
+            .logo {
+                img {
+                    width: 60px;
+                }
+            }
+            .nav-cmd {
+                height: 100%;
+                ul {
+                    height: 100%;
+                    align-items: center;
+                    li {
+                        margin: 0 30px;
+                        height: 100%;
+                        display: flex;
+                        align-items: center;
+                        &.active {
+                            border-bottom: 5px solid $nav-up-bg;
+                            a {
+                                color: $nav-up-bg;
+                            }
+                        }
+                        a {
+                            text-transform: uppercase;
+                            font-size: $s;
+                            color: $sec-txt;
+                            font-weight: 600;
+                        }
+                        i {
+                            margin-left: 5px;
+                            color: $nav-up-bg;
+                            font-size: $xs;
+                        }
+                    }
+                }
+
+            }
+            .search {
+                border-bottom: 2px solid $nav-up-bg;
+                input {
+                    border: 0;
+                    width: 100px;
+                }
+                button {
+                    border: 0;
+                    background-color: inherit;
+                    padding-left: 10px
+                }
+            }
+        }
+    }
+}
+
+::placeholder {
+    text-align: right;
+    font-weight: 600;
+    color: $sec-txt;
 }
