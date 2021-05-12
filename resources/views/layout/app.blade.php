@@ -19,7 +19,6 @@
         <!-- richiamo la parte del main tramite yeld -->
         @yield("content")
         
-
         <!-- includo la parte del footer -->
         @include("parts.footer")
     </body>
