@@ -35,10 +35,5 @@
 		</div>
 	</nav>
 	<section class="jumbo">
-		<div class="container">
-			<div class="label flex">
-				<p class="uppercase">current series</p>
-			</div>
-		</div>
 	</section>
 </header>

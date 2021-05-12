@@ -2,6 +2,19 @@
 
 main {
    background-color: $main-bg;
+   position: relative;
+   .label {
+      justify-content: center;
+      align-items: center;
+      height: 60px;
+      width: 300px;
+      font-size: $l;
+      font-weight: 700;
+      position: absolute;
+      top: -30px;
+      background-color: $sec-bg;
+      color: $main-txt;
+   }
 }
 
 .wrapper {

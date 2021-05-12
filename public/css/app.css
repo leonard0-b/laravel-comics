@@ -119,18 +119,6 @@ nav .nav-down .container .search button {
   background-image: url(/img/jumbotron.jpg);
   height: 500px;
 }
-.jumbo .label {
-  justify-content: center;
-  align-items: center;
-  height: 60px;
-  width: 300px;
-  font-size: 30px;
-  font-weight: 700;
-  position: absolute;
-  bottom: -30px;
-  background-color: #0282f9;
-  color: #fff;
-}
 
 .card {
   width: calc(100% / 6 - 30px);
@@ -143,6 +131,19 @@ nav .nav-down .container .search button {
 
 main {
   background-color: #1c1c1c;
+  position: relative;
+}
+main .label {
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+  width: 300px;
+  font-size: 30px;
+  font-weight: 700;
+  position: absolute;
+  top: -30px;
+  background-color: #0282f9;
+  color: #fff;
 }
 
 .wrapper {

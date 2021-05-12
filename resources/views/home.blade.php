@@ -2,6 +2,11 @@
 
 @section("content")
 <main>
+    <div class="container">
+        <div class="label flex">
+            <p class="uppercase">current series</p>
+        </div>
+    </div>
     <!-- sezione cards -->
     <section>
         <div class="container">
