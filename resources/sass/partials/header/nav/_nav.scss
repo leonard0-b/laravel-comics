@@ -1,7 +1,7 @@
 nav {
     width: 100%;
     .nav-up {
-        background-color: $nav-up-bg;
+        background-color: $sec-bg;
         .container {
             .nav-up-text {
                 height: 30px;
@@ -40,9 +40,9 @@ nav {
                         display: flex;
                         align-items: center;
                         &.active {
-                            border-bottom: 5px solid $nav-up-bg;
+                            border-bottom: 5px solid $sec-bg;
                             a {
-                                color: $nav-up-bg;
+                                color: $sec-bg;
                             }
                         }
                         a {
@@ -53,7 +53,7 @@ nav {
                         }
                         i {
                             margin-left: 5px;
-                            color: $nav-up-bg;
+                            color: $sec-bg;
                             font-size: $xs;
                         }
                     }
@@ -61,7 +61,7 @@ nav {
 
             }
             .search {
-                border-bottom: 2px solid $nav-up-bg;
+                border-bottom: 2px solid $sec-bg;
                 input {
                     border: 0;
                     width: 100px;
