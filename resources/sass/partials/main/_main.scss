@@ -1,0 +1,45 @@
+@import "cards/_cards.scss";
+
+main {
+   background-color: $main-bg;
+}
+
+.wrapper {
+   padding-top: 50px;
+   flex-wrap: wrap; 
+}
+.load {
+   justify-content: center;
+   a {
+      padding: 7px 35px;
+      background-color: $sec-bg; 
+      color: $main-txt;  
+      font-size: $s;
+      font-weight: 600;
+   }
+}
+
+.blue {
+   background-color: $sec-bg;
+   height: 150px;
+   margin-top: 30px;
+   .container {
+      align-items: center;
+      height: 100%;
+      .cell {
+         width: calc(100% / 5 - 20px);
+         margin: 0 10px;
+         justify-content: center;
+      }
+      .img {
+         img, svg {
+            width: 50px;
+         }
+      }
+      .cell-txt {
+         align-items: center;
+         margin-left: 15px;
+         color: $main-txt;
+      }
+   }
+}

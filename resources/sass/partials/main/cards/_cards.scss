@@ -1,0 +1,11 @@
+.card {
+    width: calc(100% / 6 - 30px);
+    margin: 15px;
+    background-color: gold;
+    img {
+
+    }
+    .title {
+        color: $main-txt;
+    }
+}

@@ -131,3 +131,55 @@ nav .nav-down .container .search button {
   background-color: #0282f9;
   color: #fff;
 }
+
+.card {
+  width: calc(100% / 6 - 30px);
+  margin: 15px;
+  background-color: gold;
+}
+.card .title {
+  color: #fff;
+}
+
+main {
+  background-color: #1c1c1c;
+}
+
+.wrapper {
+  padding-top: 50px;
+  flex-wrap: wrap;
+}
+
+.load {
+  justify-content: center;
+}
+.load a {
+  padding: 7px 35px;
+  background-color: #0282f9;
+  color: #fff;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.blue {
+  background-color: #0282f9;
+  height: 150px;
+  margin-top: 30px;
+}
+.blue .container {
+  align-items: center;
+  height: 100%;
+}
+.blue .container .cell {
+  width: calc(100% / 5 - 20px);
+  margin: 0 10px;
+  justify-content: center;
+}
+.blue .container .img img, .blue .container .img svg {
+  width: 50px;
+}
+.blue .container .cell-txt {
+  align-items: center;
+  margin-left: 15px;
+  color: #fff;
+}
