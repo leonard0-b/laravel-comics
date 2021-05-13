@@ -136,6 +136,71 @@ nav .nav-down .container .search button {
   font-size: 13px;
 }
 
+section .blue-banner {
+  height: 60px;
+  background-color: #0282f9;
+  position: relative;
+}
+section .blue-banner .container .comic-demo {
+  position: absolute;
+  bottom: 10px;
+}
+section .comic-details {
+  background-color: #fff;
+}
+section .comic-details .container {
+  margin-bottom: 70px;
+}
+section .comic-details .container .det-left {
+  width: 60%;
+}
+section .comic-details .container .det-left .comic-title {
+  margin-top: 70px;
+  margin-bottom: 20px;
+}
+section .comic-details .container .det-left .green {
+  background-color: #55ba59;
+  margin-bottom: 20px;
+}
+section .comic-details .container .det-left .green .price {
+  width: 70%;
+  padding: 15px 20px;
+  justify-content: space-between;
+}
+section .comic-details .container .det-left .green .price span {
+  color: #bafd9c;
+}
+section .comic-details .container .det-left .green .available {
+  width: 30%;
+  border-left: 1px solid black;
+  padding: 15px 20px;
+}
+section .comic-details .container .det-left .green .available span {
+  color: #fff;
+}
+section .comic-details .container .det-left .green .available span i {
+  cursor: pointer;
+  margin-left: 5px;
+}
+section .comic-details .container .det-left .description p {
+  line-height: 25px;
+  font-size: 13px;
+}
+section .comic-details .container .det-right {
+  width: 40%;
+}
+
+.comic-specs {
+  background-color: #f6f6f6;
+}
+.comic-specs .container .col-50 {
+  width: 50%;
+  flex-wrap: wrap;
+}
+.comic-specs .container .col-50 .col-100 {
+  width: 100%;
+}
+
 main {
   background-color: #1c1c1c;
   position: relative;
@@ -254,6 +319,8 @@ footer .container .left .cookies p a {
   color: #0282f9;
 }
 footer .container .right {
+  height: 450px;
+  overflow: hidden;
   position: relative;
   width: 50%;
 }

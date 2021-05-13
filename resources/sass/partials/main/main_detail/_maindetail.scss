@@ -1,0 +1,71 @@
+section {
+    .blue-banner {
+        height: 60px;
+        background-color: $sec_bg;
+        position: relative;
+        .container {
+            .comic-demo {
+                position: absolute;
+                bottom: 10px;
+            }
+        }
+    }
+    .comic-details {
+        background-color: $third-bg;
+        .container {
+            margin-bottom: 70px;
+            .det-left {
+                width: 60%;
+                .comic-title {
+                    margin-top: 70px;
+                    margin-bottom: 20px;
+                }
+                .green {
+                    background-color: $banner-price;
+                    margin-bottom: 20px;
+                    .price {
+                        width: 70%;
+                        padding: 15px 20px;
+                        justify-content: space-between;
+                        span {
+                            color: #bafd9c;
+                        }
+                    }
+                    .available {
+                        width: 30%;
+                        border-left: 1px solid black;
+                        padding: 15px 20px;
+                        span {
+                            color: $main-txt;
+                            i {
+                                cursor: pointer;
+                                margin-left: 5px;
+                            }
+                        }
+                    }
+                }
+                .description {
+                    p {
+                        line-height: 25px;
+                        font-size: $s;
+                    }
+                }
+            }
+            .det-right {
+                width: 40%;
+            }
+        }
+    }
+}
+.comic-specs {
+    background-color: $spec-bg;
+    .container {
+        .col-50 {
+            width: 50%;
+            flex-wrap: wrap;
+            .col-100 {
+                width: 100%;
+            }
+        }
+    }
+}

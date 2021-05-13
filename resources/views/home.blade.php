@@ -14,8 +14,8 @@ Home
     <section>
     <div class="container">
         <div class="wrapper flex">
-            @foreach ($comics as $comic)
-            <a href="" class="card">
+            @foreach ($comics as $index => $comic)
+            <a href="{{route('detail', ['id' => $index])}}" class="card" target="blank_">
                 <div>
                     <div class="thumb">
                         <img src="{{$comic['thumb']}}" alt="">
