@@ -122,7 +122,10 @@ section {
                     width: 60%;
                     a {
                         font-size: $s;
-                        color: $sec-bg;
+                        color: #00a9d9;
+                        &:hover {
+                            color: #9ae9ff;
+                        }
                     }
                     p {
                         font-size: $s;

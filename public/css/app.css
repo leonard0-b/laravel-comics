@@ -276,7 +276,10 @@ section .comic-details .container .det-right .advertising p {
 }
 .comic-specs .container .col-50 .col-100 .col-right a {
   font-size: 13px;
-  color: #0282f9;
+  color: #00a9d9;
+}
+.comic-specs .container .col-50 .col-100 .col-right a:hover {
+  color: #9ae9ff;
 }
 .comic-specs .container .col-50 .col-100 .col-right p {
   font-size: 13px;
