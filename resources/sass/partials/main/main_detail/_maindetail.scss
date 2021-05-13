@@ -7,13 +7,32 @@ section {
             .comic-demo {
                 position: absolute;
                 bottom: 10px;
+                border: 1px solid #fff;
+                span.up {
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    background-color: #00a9d9;
+                    color: $main-txt;
+                    padding: 3px 4px;
+                }
+                span.down {
+                    position: absolute;
+                    bottom: 0;
+                    left: 0;
+                    background-color: #00a9d9;
+                    width: 100%;
+                    text-align: center;
+                    padding: 3px 0;
+                    color: $main-txt;
+                }
             }
         }
     }
     .comic-details {
         background-color: $third-bg;
         .container {
-            margin-bottom: 70px;
+            padding-bottom: 70px;
             .det-left {
                 width: 60%;
                 .comic-title {
@@ -52,19 +71,97 @@ section {
                 }
             }
             .det-right {
-                width: 40%;
+                .advertising {
+                    margin-top: 70px;
+                    margin-left: 50px;
+                    height: 100%;
+                    position: relative;
+
+                    p {
+                        position: absolute;
+                        right: 0;
+                        top: -25px;
+                        font-weight: 600;
+                    }
+                }
             }
         }
     }
 }
 .comic-specs {
     background-color: $spec-bg;
+    padding-bottom: 150px;
     .container {
         .col-50 {
             width: 50%;
             flex-wrap: wrap;
+            &.lef {
+                margin-right: 10px;
+            }
+            &.rig {
+                margin-left: 35px;
+            }
             .col-100 {
                 width: 100%;
+                padding: 15px 0; 
+                border-bottom: 1px solid lightgrey;
+                h4 {
+                    font-size: $m;
+                }
+                &.title {
+                    padding-top: 20px;
+                    height: 60px;
+                }
+                .col-left {
+                    width: 40%;
+                    p {
+                        font-size: $s;
+                    }
+                }
+                .col-right {
+                    width: 60%;
+                    a {
+                        font-size: $s;
+                        color: $sec-bg;
+                    }
+                    p {
+                        font-size: $s;
+                    }
+                    .artists {
+                        flex-wrap: wrap;
+                        a {
+                            font-size: $s;
+                            margin-left: 3px;
+                            span::after{
+                                content: ",";
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+.digital-shop {
+    height: 100px;
+    border-top: 1px solid lightgrey;
+    background-color: $spec-bg;
+    .container {
+        border-left: 1px solid lightgrey;
+        .modules{
+            display: flex;
+            width: calc(100%/4);
+            height: 100px;
+            border-right: 1px solid lightgrey;
+            justify-content: space-between;
+            padding: 20px;
+            p {
+                color: lightgrey;
+                font-weight: 700;
+            }
+            img {
+                width: 50px;
+                height: 60px;
             }
         }
     }

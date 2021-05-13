@@ -66,6 +66,12 @@ nav .nav-down .container .nav-cmd ul li {
   display: flex;
   align-items: center;
 }
+nav .nav-down .container .nav-cmd ul li:hover {
+  border-bottom: 5px solid #0282f9;
+}
+nav .nav-down .container .nav-cmd ul li:hover a {
+  color: #0282f9;
+}
 nav .nav-down .container .nav-cmd ul li.active {
   border-bottom: 5px solid #0282f9;
 }
@@ -89,6 +95,7 @@ nav .nav-down .container .search {
 nav .nav-down .container .search input {
   border: 0;
   width: 100px;
+  outline: 0;
 }
 nav .nav-down .container .search button {
   border: 0;
@@ -127,6 +134,20 @@ nav .nav-down .container .search button {
 .card .thumb {
   height: 200px;
   overflow: hidden;
+  position: relative;
+}
+.card .thumb:hover .overlay {
+  opacity: 1;
+}
+.card .thumb .overlay {
+  opacity: 0;
+  transition: opacity 0.6s;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.4);
 }
 .card .title {
   color: #fff;
@@ -144,12 +165,31 @@ section .blue-banner {
 section .blue-banner .container .comic-demo {
   position: absolute;
   bottom: 10px;
+  border: 1px solid #fff;
+}
+section .blue-banner .container .comic-demo span.up {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #00a9d9;
+  color: #fff;
+  padding: 3px 4px;
+}
+section .blue-banner .container .comic-demo span.down {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: #00a9d9;
+  width: 100%;
+  text-align: center;
+  padding: 3px 0;
+  color: #fff;
 }
 section .comic-details {
   background-color: #fff;
 }
 section .comic-details .container {
-  margin-bottom: 70px;
+  padding-bottom: 70px;
 }
 section .comic-details .container .det-left {
   width: 60%;
@@ -186,19 +226,95 @@ section .comic-details .container .det-left .description p {
   line-height: 25px;
   font-size: 13px;
 }
-section .comic-details .container .det-right {
-  width: 40%;
+section .comic-details .container .det-right .advertising {
+  margin-top: 70px;
+  margin-left: 50px;
+  height: 100%;
+  position: relative;
+}
+section .comic-details .container .det-right .advertising p {
+  position: absolute;
+  right: 0;
+  top: -25px;
+  font-weight: 600;
 }
 
 .comic-specs {
   background-color: #f6f6f6;
+  padding-bottom: 150px;
 }
 .comic-specs .container .col-50 {
   width: 50%;
   flex-wrap: wrap;
 }
+.comic-specs .container .col-50.lef {
+  margin-right: 10px;
+}
+.comic-specs .container .col-50.rig {
+  margin-left: 35px;
+}
 .comic-specs .container .col-50 .col-100 {
   width: 100%;
+  padding: 15px 0;
+  border-bottom: 1px solid lightgrey;
+}
+.comic-specs .container .col-50 .col-100 h4 {
+  font-size: 20px;
+}
+.comic-specs .container .col-50 .col-100.title {
+  padding-top: 20px;
+  height: 60px;
+}
+.comic-specs .container .col-50 .col-100 .col-left {
+  width: 40%;
+}
+.comic-specs .container .col-50 .col-100 .col-left p {
+  font-size: 13px;
+}
+.comic-specs .container .col-50 .col-100 .col-right {
+  width: 60%;
+}
+.comic-specs .container .col-50 .col-100 .col-right a {
+  font-size: 13px;
+  color: #0282f9;
+}
+.comic-specs .container .col-50 .col-100 .col-right p {
+  font-size: 13px;
+}
+.comic-specs .container .col-50 .col-100 .col-right .artists {
+  flex-wrap: wrap;
+}
+.comic-specs .container .col-50 .col-100 .col-right .artists a {
+  font-size: 13px;
+  margin-left: 3px;
+}
+.comic-specs .container .col-50 .col-100 .col-right .artists a span::after {
+  content: ",";
+}
+
+.digital-shop {
+  height: 100px;
+  border-top: 1px solid lightgrey;
+  background-color: #f6f6f6;
+}
+.digital-shop .container {
+  border-left: 1px solid lightgrey;
+}
+.digital-shop .container .modules {
+  display: flex;
+  width: calc(100%/4);
+  height: 100px;
+  border-right: 1px solid lightgrey;
+  justify-content: space-between;
+  padding: 20px;
+}
+.digital-shop .container .modules p {
+  color: lightgrey;
+  font-weight: 700;
+}
+.digital-shop .container .modules img {
+  width: 50px;
+  height: 60px;
 }
 
 main {
@@ -289,6 +405,9 @@ footer .container .left .col-25 ul li a {
   color: grey;
   margin: 3px 0;
 }
+footer .container .left .col-25 ul li a:hover {
+  color: #0282f9;
+}
 footer .container .left .col-50 {
   width: 50%;
 }
@@ -307,6 +426,9 @@ footer .container .left .col-50 ul li a {
   font-size: 13px;
   color: grey;
   margin: 3px 0;
+}
+footer .container .left .col-50 ul li a:hover {
+  color: #0282f9;
 }
 footer .container .left .cookies {
   font-size: 13px;
@@ -342,6 +464,10 @@ footer .followus .container .follow-left a {
   border: 1px solid #0282f9;
   padding: 10px 15px;
   color: #fff;
+  transition: background-color 0.4s;
+}
+footer .followus .container .follow-left a:hover {
+  background-color: #0282f9;
 }
 footer .followus .container .follow-right {
   align-items: center;
@@ -350,4 +476,11 @@ footer .followus .container .follow-right a {
   font-weight: 700;
   color: #0282f9;
   margin: 0 20px;
+  transition: color 0.3s;
+}
+footer .followus .container .follow-right a:hover {
+  color: #fff;
+}
+footer .followus .container .follow-right img {
+  margin: 0 8px;
 }

@@ -19,6 +19,9 @@ Home
                 <div>
                     <div class="thumb">
                         <img src="{{$comic['thumb']}}" alt="">
+                        <div class="overlay">
+                            
+                        </div>
                     </div>
                     <div class="title">
                         <p class="uppercase">{{$comic['series']}}</p>

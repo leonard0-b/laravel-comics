@@ -25,6 +25,9 @@ footer {
                             font-size: $s;
                             color: grey;
                             margin: 3px 0;
+                            &:hover {
+                                color: $sec-bg;
+                            }
                         }
                     }
                 }    
@@ -46,6 +49,9 @@ footer {
                             font-size: $s;
                             color: grey;
                             margin: 3px 0;
+                            &:hover {
+                                color: $sec-bg;
+                            }
                         }
                     }
                 }    
@@ -85,6 +91,10 @@ footer {
                     border: 1px solid $sec-bg;
                     padding: 10px 15px; 
                     color: $main-txt;
+                    transition: background-color 0.4s;
+                    &:hover {
+                        background-color: $sec-bg;
+                    }
                 }
             }
             .follow-right {
@@ -93,6 +103,13 @@ footer {
                     font-weight: 700;
                     color: $sec-bg;
                     margin: 0 20px;
+                    transition: color 0.3s;
+                    &:hover {
+                        color: $main-txt;
+                    }
+                }
+                img {
+                    margin: 0 8px;
                 }
             }
         }
