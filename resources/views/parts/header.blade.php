@@ -1,4 +1,3 @@
-<header>
 	<nav>
 		<div class="nav-up">
 			<div class="container flex">
@@ -36,4 +35,3 @@
 	</nav>
 	<section class="jumbo">
 	</section>
-</header>

@@ -123,10 +123,17 @@ nav .nav-down .container .search button {
 .card {
   width: calc(100% / 6 - 30px);
   margin: 15px;
-  background-color: gold;
+}
+.card .thumb {
+  height: 200px;
+  overflow: hidden;
 }
 .card .title {
   color: #fff;
+  margin-top: 10px;
+}
+.card .title p {
+  font-size: 13px;
 }
 
 main {
@@ -181,6 +188,8 @@ main .label {
 }
 .blue .container .cell-txt {
   align-items: center;
+}
+.blue .container .cell-txt a {
   margin-left: 15px;
   color: #fff;
 }
@@ -202,16 +211,18 @@ footer .container .left .col-25 {
 footer .container .left .col-25 ul {
   margin-bottom: 20px;
 }
-footer .container .left .col-25 ul li {
-  font-size: 13px;
-  color: grey;
-  margin: 3px 0;
+footer .container .left .col-25 ul li.uppercase {
+  margin-bottom: 10px;
 }
-footer .container .left .col-25 ul li:first-child {
+footer .container .left .col-25 ul li.uppercase a {
   color: #fff;
   font-size: 20px;
   font-weight: 600;
-  margin-bottom: 10px;
+}
+footer .container .left .col-25 ul li a {
+  font-size: 13px;
+  color: grey;
+  margin: 3px 0;
 }
 footer .container .left .col-50 {
   width: 50%;
@@ -219,16 +230,18 @@ footer .container .left .col-50 {
 footer .container .left .col-50 ul {
   margin-bottom: 20px;
 }
-footer .container .left .col-50 ul li {
-  font-size: 13px;
-  color: grey;
-  margin: 3px 0;
+footer .container .left .col-50 ul li.uppercase {
+  margin-bottom: 10px;
 }
-footer .container .left .col-50 ul li:first-child {
+footer .container .left .col-50 ul li.uppercase a {
   color: #fff;
   font-size: 20px;
   font-weight: 600;
-  margin-bottom: 10px;
+}
+footer .container .left .col-50 ul li a {
+  font-size: 13px;
+  color: grey;
+  margin: 3px 0;
 }
 footer .container .left .cookies {
   font-size: 13px;

@@ -1,11 +1,15 @@
 .card {
     width: calc(100% / 6 - 30px);
     margin: 15px;
-    background-color: gold;
-    img {
-
+    .thumb {
+        height: 200px;
+        overflow: hidden;  
     }
     .title {
         color: $main-txt;
+        margin-top: 10px;
+        p {
+            font-size: $s;
+        }
     }
 }

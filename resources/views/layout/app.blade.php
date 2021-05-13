@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>DCComics</title>
+        <title>@yield("title")</title>
         <!-- Fonts -->
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap" rel="stylesheet">
@@ -14,12 +14,18 @@
     </head>
     <body>
         <!-- includo la parte dell' header -->
-        @include("parts.header")
+        <header>
+            @include("parts.header")
+        </header>
 
-        <!-- richiamo la parte del main tramite yeld -->
-        @yield("content")
+        <!-- richiamo la parte del main tramite yield -->
+        <main>
+            @yield("content")
+        </main>
         
         <!-- includo la parte del footer -->
-        @include("parts.footer")
+        <footer>
+            @include("parts.footer")
+        </footer>
     </body>
 </html>

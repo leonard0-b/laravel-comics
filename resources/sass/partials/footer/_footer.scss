@@ -13,14 +13,18 @@ footer {
                 ul {
                     margin-bottom: 20px;
                     li {
-                        font-size: $s;
-                        color: grey;
-                        margin: 3px 0;
-                        &:first-child {
-                            color: $main-txt;
-                            font-size: $m;
-                            font-weight: 600;
-                            margin-bottom: 10px;
+                        &.uppercase {
+                            margin-bottom: 10px; 
+                            a {
+                                color: $main-txt;
+                                font-size: $m;
+                                font-weight: 600;
+                            }
+                        }
+                        a {
+                            font-size: $s;
+                            color: grey;
+                            margin: 3px 0;
                         }
                     }
                 }    
@@ -30,14 +34,18 @@ footer {
                 ul {
                     margin-bottom: 20px;
                     li {
-                        font-size: $s;
-                        color: grey;
-                        margin: 3px 0;
-                        &:first-child {
-                            color: $main-txt;
-                            font-size: $m;
-                            font-weight: 600;
-                            margin-bottom: 10px;
+                        &.uppercase {
+                            margin-bottom: 10px; 
+                            a {
+                                color: $main-txt;
+                                font-size: $m;
+                                font-weight: 600;   
+                            }
+                        }
+                        a {
+                            font-size: $s;
+                            color: grey;
+                            margin: 3px 0;
                         }
                     }
                 }    

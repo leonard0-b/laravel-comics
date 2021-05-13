@@ -1,47 +1,46 @@
-<footer>
     <div class="container flex">
         <div class="left flex">
             <div class="col-25">
                 <ul>
-                    <li class="uppercase">dc comics</li>
-                    <li>Characters</li>
-                    <li>Comics</li>
-                    <li>Movies</li>
-                    <li clas="uppercase">tv</li>
-                    <li>Games</li>
-                    <li>Videos</li>
-                    <li>News</li>
+                    <li class="uppercase"><a href="">dc comics</a></li>
+                    <li><a href="">Characters</a></li>
+                    <li><a href="">Comics</a></li>
+                    <li><a href="">Movies</a></li>
+                    <li><a href="">TV</a></li>
+                    <li><a href="">Games</a></li>
+                    <li><a href="">Videos</a></li>
+                    <li><a href="">News</a></li>
                 </ul>
                 <ul>
-                    <li class="uppercase">shop</li>
-                    <li>Shop DC</li>
-                    <li>Shop DC Collectibles</li>
+                    <li class="uppercase"><a href="">shop</a></li>
+                    <li><a href="">Shop DC</a></li>
+                    <li><a href="">Shop DC Collectibles</a></li>
                 </ul>
             </div>
             <div class="col-25">
                 <ul>
-                    <li class="uppercase">dc</li>
-                    <li>Term Of Use</li>
-                    <li>Privacy policy (New)</li>
-                    <li>Ad Choices</li>
-                    <li>Advertising</li>
-                    <li>Jobs</li>
-                    <li>Subscriptions</li>
-                    <li>Talent Workshop</li>
-                    <li>CPSC Certificates</li>
-                    <li>Ratings</li>
-                    <li>Shop Help</li>
-                    <li>Conact Us</li>
+                    <li class="uppercase"><a href="">dc</a></li>
+                    <li><a href="">Term Of Use</a></li>
+                    <li><a href="">Privacy policy (New)</a></li>
+                    <li><a href="">Ad Choices</a></li>
+                    <li><a href="">Advertising</a></li>
+                    <li><a href="">Jobs</a></li>
+                    <li><a href="">Subscriptions</a></li>
+                    <li><a href="">Talent Workshop</a></li>
+                    <li><a href="">CPSC Certificates</a></li>
+                    <li><a href="">Ratings</a></li>
+                    <li><a href="">Shop Help</a></li>
+                    <li><a href="">Conact Us</a></li>
                 </ul>
             </div>
             <div class="col-50">    
                 <ul>
-                    <li class="uppercase">sites</li>
-                    <li>DC</li>
-                    <li>MAD Magazine</li>
-                    <li>DC Kids</li>
-                    <li>DC Universe</li>
-                    <li>DC Power Visa</li>
+                    <li class="uppercase"><a href="">sites</a></li>
+                    <li><a href="">DC</a></li>
+                    <li><a href="">MAD Magazine</a></li>
+                    <li><a href="">DC Kids</a></li>
+                    <li><a href="">DC Universe</a></li>
+                    <li><a href="">DC Power Visa</a></li>
                 </ul>
             </div>
             <div class="cookies">
@@ -67,4 +66,3 @@
             </div>
         </div>
     </section>
-</footer>

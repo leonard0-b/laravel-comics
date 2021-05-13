@@ -51,8 +51,10 @@ main {
       }
       .cell-txt {
          align-items: center;
+         a {
          margin-left: 15px;
          color: $main-txt;
+         }
       }
    }
 }
