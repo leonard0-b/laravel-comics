@@ -135,9 +135,6 @@ section {
                         a {
                             font-size: $s;
                             margin-left: 3px;
-                            span::after{
-                                content: ",";
-                            }
                         }
                     }
                 }

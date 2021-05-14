@@ -56,7 +56,16 @@ Comic Details
                 <div class="col-right">
                     <div class="artists flex">
                     @foreach ($comic['artists'] as $artist)
-                    <a href=""><span>{{$artist}}</span></a>
+                    <a href="">
+                        <span>
+                            {{$artist}}
+                        </span>
+                        <span>
+                            @if (!$loop->last)
+                            ,
+                            @endif 
+                        </span>
+                    </a>
                     @endforeach
                     </div>
                 </div>
@@ -68,7 +77,16 @@ Comic Details
                 <div class="col-right">
                     <div class="artists flex">
                     @foreach ($comic['writers'] as $writers)
-                    <a href=""><span>{{$writers}}</span></a>
+                    <a href="">
+                        <span>
+                        {{$writers}}
+                        </span>
+                        <span>
+                            @if (!$loop->last)
+                            ,
+                            @endif
+                        </span>
+                    </a>
                     @endforeach
                     </div>
                 </div>

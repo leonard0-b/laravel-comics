@@ -291,9 +291,6 @@ section .comic-details .container .det-right .advertising p {
   font-size: 13px;
   margin-left: 3px;
 }
-.comic-specs .container .col-50 .col-100 .col-right .artists a span::after {
-  content: ",";
-}
 
 .digital-shop {
   height: 100px;
