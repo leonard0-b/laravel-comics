@@ -14,7 +14,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('home')->with('comics', config('comics'));
+    return view('home')->with('comics', config('comics')); //primo parametro assegno il nome alla variabile, secondo parametro cerco nella cartella config il file "comics" (il database)
 })->name('home');
 
 Route::get('/single/{id}', function ($id) { //creo la rotta del singolo fumetto passando il parametro id
