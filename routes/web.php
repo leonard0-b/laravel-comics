@@ -17,9 +17,9 @@ Route::get('/', function () {
     return view('home')->with('comics', config('comics'));
 });
 
-Route::get('/single/{id}', function ($id) {
-    $comics = config('comics');
-    return view('single')->with('comic', $comics[$id]);
-})->name('detail');
+Route::get('/single/{id}', function ($id) { //creo la rotta del singolo fumetto passando il parametro id
+    $comics = config('comics'); //salvo l'array nella variabile
+    return view('single')->with('comic', $comics[$id]); //primo parametro with nome variabile, secondo è il valore della variabile
+})->name('detail'); //do il nome alla rotta
 
 
