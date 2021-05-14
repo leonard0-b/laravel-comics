@@ -1,0 +1,33 @@
+.char {
+    background-color: $third-bg;
+    .container-small {
+        width: 65%;
+        margin: 0 auto;
+        .char-left {
+            width: 50%;
+            margin-bottom: 70px;
+            .title {
+                font-size: $s;
+                margin: 20px 0;
+            }
+            .wrapper-char {
+                width: 100%;
+                flex-wrap: wrap;
+                .card {
+                    width: calc(100% / 4 - 10px);
+                    margin: 5px;
+                    img {
+                        width: 100%;
+                    }
+                    p {
+                        margin-top: -3px;
+                        font-size: $xs;
+                    }
+                }
+            }
+        }
+        .char-right {
+            width: 50%;
+        }
+    }
+}

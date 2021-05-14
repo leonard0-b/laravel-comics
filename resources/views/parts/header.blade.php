@@ -14,8 +14,8 @@
 				</div>
 				<div class="nav-cmd">
 					<ul class="flex">
-						<li><a href="">characters</a></li>
-						<li class="{{Route::currentRouteName() == 'home' ? 'active' : ''}}"><a href="">comics</a></li>
+						<li class="{{Route::currentRouteName() == 'characters' ? 'active' : ''}}"><a href="{{route('characters')}}">characters</a></li>
+						<li class="{{Route::currentRouteName() == 'home' ? 'active' : ''}}"><a href="{{route('home')}}">comics</a></li>
 						<li><a href="">movies</a></li>
 						<li><a href="">tv</a></li>
 						<li><a href="">games</a></li>

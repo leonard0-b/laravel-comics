@@ -317,6 +317,40 @@ section .comic-details .container .det-right .advertising p {
   height: 60px;
 }
 
+.char {
+  background-color: #fff;
+}
+.char .container-small {
+  width: 65%;
+  margin: 0 auto;
+}
+.char .container-small .char-left {
+  width: 50%;
+  margin-bottom: 70px;
+}
+.char .container-small .char-left .title {
+  font-size: 13px;
+  margin: 20px 0;
+}
+.char .container-small .char-left .wrapper-char {
+  width: 100%;
+  flex-wrap: wrap;
+}
+.char .container-small .char-left .wrapper-char .card {
+  width: calc(100% / 4 - 10px);
+  margin: 5px;
+}
+.char .container-small .char-left .wrapper-char .card img {
+  width: 100%;
+}
+.char .container-small .char-left .wrapper-char .card p {
+  margin-top: -3px;
+  font-size: 10px;
+}
+.char .container-small .char-right {
+  width: 50%;
+}
+
 main {
   background-color: #1c1c1c;
   position: relative;
