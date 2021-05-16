@@ -1,5 +1,10 @@
 nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
     width: 100%;
+    z-index: 10;
     .nav-up {
         background-color: $sec-bg;
         .container {
@@ -20,6 +25,7 @@ nav {
     }
     .nav-down {
         height: 100px;
+        background-color: $third-bg;
         .container {
             align-items: center;
             height: 100%;

@@ -55,3 +55,35 @@
         }
     }
 }
+section.char {
+    margin-top: 0;
+}
+section.whos {
+    background-color: $third-bg;
+    margin-bottom: 50px;
+    .container {
+        .title-big {
+            margin-bottom: -10px;
+            padding-top: 20px;
+            line-height: 60px;
+            letter-spacing: -1px;
+            h1 {
+                color: $sec-bg;
+                font-size: 50px;
+                &:last-child {
+                    font-size: $xl;
+                }
+            }
+        }
+        .stripe {
+            cursor: pointer;
+            &:hover p {
+                color: $sec-bg;
+            }
+            p {
+                font-weight: 700;
+                font-size: $s;
+            }
+        }
+    }
+}

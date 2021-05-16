@@ -1,6 +1,7 @@
 /* COLORS */
 /* /COLORS */
 /* TYPO */
+/* /TYPO */
 * {
   margin: 0;
   padding: 0;
@@ -24,7 +25,12 @@
 }
 
 nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
   width: 100%;
+  z-index: 10;
 }
 nav .nav-up {
   background-color: #0282f9;
@@ -44,6 +50,7 @@ nav .nav-up .container .nav-up-text span i {
 }
 nav .nav-down {
   height: 100px;
+  background-color: #fff;
 }
 nav .nav-down .container {
   align-items: center;
@@ -122,6 +129,7 @@ nav .nav-down .container .search button {
 }
 
 .jumbo {
+  margin-top: 100px;
   position: relative;
   background-image: url(/img/jumbotron.jpg);
   height: 500px;
@@ -373,6 +381,38 @@ section .comic-details .container .det-right .advertising p {
 }
 .char .container-small .char-right {
   width: 50%;
+}
+
+section.char {
+  margin-top: 0;
+}
+
+section.whos {
+  background-color: #fff;
+  margin-bottom: 50px;
+}
+section.whos .container .title-big {
+  margin-bottom: -10px;
+  padding-top: 20px;
+  line-height: 60px;
+  letter-spacing: -1px;
+}
+section.whos .container .title-big h1 {
+  color: #0282f9;
+  font-size: 50px;
+}
+section.whos .container .title-big h1:last-child {
+  font-size: 100px;
+}
+section.whos .container .stripe {
+  cursor: pointer;
+}
+section.whos .container .stripe:hover p {
+  color: #0282f9;
+}
+section.whos .container .stripe p {
+  font-weight: 700;
+  font-size: 13px;
 }
 
 main {

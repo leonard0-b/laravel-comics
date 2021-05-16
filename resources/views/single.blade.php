@@ -159,7 +159,6 @@ Comic Details
             <div>
                 <img src="/img/buy-comics-merchandise.png" alt="digital-comics">
             </div>
-
         </div>
     </div>
 </section>
